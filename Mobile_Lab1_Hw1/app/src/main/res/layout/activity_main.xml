@@ -1,0 +1,93 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/avatar"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ngo Manh Khuong"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/job_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data Scientist"
+            android:textSize="18sp"
+            android:textColor="@color/purple_500"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/contact_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📧Email: khuongngo1209@gmail.com
+📞 Phone: +123456789
+🔗 LinkedIn: linkedin.com/in/khuongngo"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/education"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🎓 Education:
+Bachelor in Information Systems - University of Information Technology (2021-2026)"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/experience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💼 Experience:\nData Scientist at ABC Tech (2022-Present)\nMachine Learning Engineer at DEF Analytics (2020-2022)"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/skills"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🛠 Skills:\n- Python, R, SQL\n- Machine Learning, Deep Learning\n- Data Visualization (Tableau, Power BI)\n- Big Data (Hadoop, Spark)"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/projects"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📊 Projects:\n1. Fraud Detection in Supply Chain using Anomaly Detection\n2. Customer Churn Prediction for E-Commerce\n3. Image-Based Food Recommendation using CNNs"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/certifications"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📜 Certifications:\n- Google Data Analytics Professional Certificate\n- IBM Data Science Certificate\n- AWS Certified Machine Learning - Specialty"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+    </LinearLayout>
+</ScrollView>
