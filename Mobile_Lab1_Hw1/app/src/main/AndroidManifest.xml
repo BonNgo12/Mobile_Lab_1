@@ -13,9 +13,6 @@
         android:label="CV App"
         android:theme="@style/Theme.CVApp">
 
-        <activity android:name=".CVDisplayActivity"
-            android:exported="false" />
-
         <activity android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
